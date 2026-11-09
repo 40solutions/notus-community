@@ -1,0 +1,63 @@
+name: Bug report
+description: Something in Notus isn't working the way it should.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a problem.
+
+        **This issue will be public.** Please don't include license keys, API keys, passwords, tokens or the contents of your notebooks. If you attach a screenshot, check it first.
+
+        Security problem? Please email contact@40solutions.com instead of opening an issue.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Tell us what went wrong. Include any error message you saw.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: If you can, list the steps that make it happen.
+      placeholder: |
+        1. Open a notebook
+        2. ...
+        3. See the problem
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+      description: What should have happened instead?
+  - type: input
+    id: version
+    attributes:
+      label: Notus version
+      placeholder: "e.g. 1.0.0 — Help → About Notus"
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: "e.g. macOS 15 (Apple silicon), Windows 11, Ubuntu 24.04"
+    validations:
+      required: true
+  - type: dropdown
+    id: license
+    attributes:
+      label: Are you using Notus Free or Notus Annual?
+      options:
+        - Free
+        - Notus Annual
+        - Not sure
+  - type: checkboxes
+    id: no-secrets
+    attributes:
+      label: Privacy check
+      options:
+        - label: I have not included license keys, API keys, passwords, tokens or private notebook content.
+          required: true

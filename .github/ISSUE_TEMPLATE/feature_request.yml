@@ -1,0 +1,38 @@
+name: Feature request
+description: Suggest something Notus could do, or do better.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion. Telling us about the problem you're trying to solve helps most.
+
+        **This issue will be public.** Please don't include license keys, API keys, passwords, tokens or the contents of your notebooks.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do, and what gets in the way?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like Notus to do?
+  - type: input
+    id: version
+    attributes:
+      label: Notus version
+      placeholder: "e.g. 1.0.0 — Help → About Notus"
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: "e.g. macOS 15 (Apple silicon), Windows 11, Ubuntu 24.04"
+  - type: checkboxes
+    id: no-secrets
+    attributes:
+      label: Privacy check
+      options:
+        - label: I have not included license keys, API keys, passwords, tokens or private notebook content.
+          required: true

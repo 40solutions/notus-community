@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Download Notus
+    url: https://www.40solutions.com/notus
+    about: Get the latest version of Notus for macOS, Windows or Linux.
+  - name: Report a security problem privately
+    url: mailto:contact@40solutions.com
+    about: Please don't report security problems in public issues.
