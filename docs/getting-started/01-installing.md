@@ -1,6 +1,6 @@
 # Installing Notus
 
-Notus is a desktop application for **macOS, Windows and Linux**. You install it once per computer. It runs entirely on your machine and needs no account to get started.
+Notus is a desktop application for **macOS, Windows and Linux**. You install it once per computer. It needs **macOS 13 (Ventura) or later**, **Windows 10 or 11 (64-bit)**, or **Linux with glibc 2.34 or later** (Ubuntu 22.04, Debian 12 or newer). It runs entirely on your machine and needs no account to get started.
 
 Download the installer for your computer from the Notus page at **[40solutions.com/notus](https://www.40solutions.com/notus)**.
 
@@ -34,7 +34,7 @@ On newer distributions you may need to install `libfuse2` first. On some Wayland
 
 ## Updating
 
-Notus does not update itself. When a new version is posted, download it and install it over the old one (or replace the AppImage on Linux). Updating never touches your notebooks.
+Notus does not update itself. When a new version is posted, download it and install it over the old one (or replace the AppImage on Linux). Your notebooks stay where they are. **One exception, from 1.1:** once 1.1 opens a notebook, older versions can't open it, so update every computer you sync notebooks between, and copy your notebooks folder first if you might go back to 1.0.
 
 ## Accepting the license agreement
 
