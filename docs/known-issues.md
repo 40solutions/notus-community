@@ -4,6 +4,10 @@
 
 These are problems we already know about. If you hit something that isn't listed here, please [report it](https://github.com/40solutions/notus-community/issues/new/choose).
 
+## ⚠️ PDF blocks in 1.1.0
+
+- **Every PDF block shows "PDF render failed" in 1.1.0.** Your PDFs are safe and unchanged in your notebooks; they display again once the fix is installed. A quick update is coming ([#10](https://github.com/40solutions/notus-community/issues/10)).
+
 ## Installing
 
 - **Notus 1.1 needs macOS 13 (Ventura) or later.** On Linux it needs glibc 2.34 or later (Ubuntu 22.04, Debian 12 or newer). Windows 10 or 11, 64-bit, is unchanged.
