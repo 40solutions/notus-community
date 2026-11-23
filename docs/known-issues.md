@@ -1,12 +1,8 @@
 # Known issues
 
-**Notus 1.1.0** — last updated 2026-11-22
+**Notus 1.1.1** — last updated 2026-11-22
 
 These are problems we already know about. If you hit something that isn't listed here, please [report it](https://github.com/40solutions/notus-community/issues/new/choose).
-
-## ⚠️ PDF blocks in 1.1.0
-
-- **Every PDF block shows "PDF render failed" in 1.1.0.** Your PDFs are safe and unchanged in your notebooks; they display again once the fix is installed. A quick update is coming ([#10](https://github.com/40solutions/notus-community/issues/10)).
 
 ## Installing
 
