@@ -25,7 +25,7 @@ These are problems we already know about. If you hit something that isn't listed
 
 ## Terminals
 
-- **Cmd+Z (Ctrl+Z on Windows and Linux) typed in a terminal block on the canvas undoes your last canvas change** instead of reaching the terminal. Inside a pop-out it works normally. A fix is planned for 1.1.1.
+- **Cmd+Z (Ctrl+Z on Windows and Linux) typed in a terminal block on the canvas undoes your last canvas change** instead of reaching the terminal. Inside a pop-out it works normally. A fix is planned for 1.1.2.
 
 ## Voice notes
 
