@@ -29,7 +29,7 @@ Your open notebooks appear in the **sidebar** on the left, as an expandable tree
 - **Rename** a section or page by **double-clicking** its name.
 - **Add**, **delete**, and **move** each use a small control that appears when you hover over a row.
 - **Reorder** sections and pages — and **move a page into another section** — by **dragging** them.
-- **Right-click a page** for **Copy path** — which copies its location as `[Notebook]Section/Page` to the clipboard — and **Copy to notebook…**, which copies it into another open notebook. **Right-clicking a section** offers **Copy path** too (`[Notebook]Section`).
+- **Right-click a page** for **Copy path** — which copies its location as `[Notebook]Section/Page` to the clipboard — and **Copy to notebook…**, which copies it into another open notebook. **Right-clicking a section** offers **Copy path** too (`[Notebook]Section`), and **Copy page from another notebook…**, which brings a page from another notebook into this one.
 
 Deleting a section or page asks you to confirm first, and cannot be undone — so it is safe to click around.
 

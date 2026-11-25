@@ -1,6 +1,6 @@
 # Known issues
 
-**Notus 1.1.1** — last updated 2026-11-22
+**Notus 1.1.2** — last updated 2026-11-25
 
 These are problems we already know about. If you hit something that isn't listed here, please [report it](https://github.com/40solutions/notus-community/issues/new/choose).
 
@@ -15,13 +15,10 @@ These are problems we already know about. If you hit something that isn't listed
 ## AI agents and Coding Sessions
 
 - **Typing in a text block while an agent is editing that same block** can cause the agent's edit to be lost. Let the agent finish first.
-- **An agent's chat isn't kept after you quit and reopen Notus.** Your pages and anything the agent wrote on them are kept. Keeping the chat is planned.
-- **Coding Sessions and running agents stop when you switch to another notebook.** Making them keep running is planned.
+- **An agent's chat isn't kept after you quit and reopen Notus.** Your pages and anything the agent wrote on them are kept. Keeping the chat is planned for 1.2.
+- **Coding Sessions and running agents stop when you switch to another notebook.** Making them keep running is planned for 1.2.
 - **Coding Sessions on Windows have had less testing** than on macOS and Linux.
 
-## Terminals
-
-- **Cmd+Z (Ctrl+Z on Windows and Linux) typed in a terminal block on the canvas undoes your last canvas change** instead of reaching the terminal. Inside a pop-out it works normally. A fix is planned for 1.1.2.
 
 ## Voice notes
 

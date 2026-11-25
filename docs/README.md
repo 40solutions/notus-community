@@ -14,7 +14,7 @@ This folder has the basics, so you can read them before you install or link to t
 ## Also here
 
 - [Frequently asked questions](faq.md)
-- [Known issues in Notus 1.1.1](known-issues.md)
+- [Known issues in Notus 1.1.2](known-issues.md)
 
 ## Still stuck?
 

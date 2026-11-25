@@ -19,6 +19,19 @@ This copies the *text*. To copy the *block itself* — to duplicate it elsewhere
 - **Move a block** by dragging its edge. (Clicking *inside* a text block puts your cursor in the text instead of moving the block — drag the edge to move it.)
 - **Resize a block** by dragging the handles that appear when it is selected. Most blocks resize from their **left and right edges**; a text block's height follows its text, and a sticky note can also be made taller from its bottom edge. **Images** resize from their **corners** and keep their proportions; hold **Shift** to stretch one freely. **Shapes** have handles on every corner and edge.
 
+### Keep blocks from overlapping
+
+Turn on **Settings → Editing → Keep blocks from overlapping** and a block you drop on top of another **slides to the nearest free space** when you let go. It follows the pointer exactly while you drag; it only settles on release. **Hold Option (Alt on Windows) while you let go** to place it exactly where it is, overlap and all. The setting is **off** until you turn it on.
+
+- **A group** you drag together moves as one: the whole group slides by the same amount, so the blocks keep their arrangement.
+- **Pasting, Duplicate and the toolbar's insert buttons** also land a new block on free space, and so do blocks an agent or a Coding Session adds or moves.
+- **Shapes never slide, and nothing slides off them** — shapes are meant to be drawn over blocks. Arrows and blocks you've hidden from the agent don't count either.
+- **Inside a container**, a block only avoids the other blocks in that container. Dropping a block *into* a container places it the usual way.
+- Only the block you moved moves: nothing else is pushed aside, and turning the setting on doesn't rearrange blocks that already overlap.
+- **Cmd+Z** (Ctrl+Z) puts a block that slid back where it was before you dragged it, in one step.
+
+**The first block on an empty page** — added with a toolbar button or by an agent — lands a little in from the top-left corner rather than flush against it. A block you place by clicking or drawing still goes exactly where you put it.
+
 ## Select several blocks
 
 **Drag a box** across empty canvas to select blocks — a "rubber-band" selection. A block is selected when the box fully encloses it: clipping a corner is not enough, the whole block has to be inside. (Holding **Ctrl**, or **Cmd** on macOS, while you drag does the same thing, so the older habit still works.) Dragging any selected block by its move handle then moves the whole group together, keeping their arrangement.
@@ -31,6 +44,7 @@ You can also **copy a selection** with Ctrl+C (Cmd+C on macOS) and paste it with
 
 - **Pan** the page by **holding the spacebar and dragging**. This is the one that works on every mouse and trackpad — a Magic Mouse and a MacBook trackpad have no middle button — and it works anywhere on the canvas, over a block as well as empty space, and while a drawing tool is selected. Let go of the spacebar and dragging goes back to selecting.
 - **If your mouse has a middle button**, dragging with it pans the same way, with no key to hold.
+- **On Windows** you can also hold the **right** mouse button and drag. A right-click without dragging still opens the menu. You can turn this off in **Settings → Editing**.
 - **Or just scroll** — a mouse wheel or two fingers on a trackpad moves the page in any direction (vertical and horizontal both work), with no button and no key at all.
 - **Zoom** by holding **Ctrl** (or **Cmd** on macOS) and scrolling, by pinching on a trackpad, or with the zoom controls in the page toolbar. Zoom runs from **25% to 400%**.
 
